@@ -3,9 +3,9 @@ document.getElementById('login-btn').addEventListener('click',function(e){
   e.preventDefault();
  const phoneNumber = document.getElementById('mobileNumber').value;
  const pinNumber = document.getElementById('pinNumber').value;
- if(phoneNumber === '9432842221' && pinNumber === '1234'){
+ if(phoneNumber === '9433850240' && pinNumber === '1234'){
   alert('Login Successfully..');
-  window.location.href = ('/dashboard.html');
+  window.location.href = ('./js/dashboard.html');
  }
  else{
   alert('login failed! try again..');
